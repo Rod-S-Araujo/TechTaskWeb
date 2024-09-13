@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+<h1>TechTaskWeb</h1>
+<img src="https://github.com/Rod-S-Araujo/TechTaskWeb/blob/main/public/images/logo.png" alt="Logo TechTask" height="100px" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Instruções de Inicialização</h2>
+<ul>
+  <li>Clone o projeto através do Visual Studio Code.</li>
+  <li>Abra um novo terminal na pasta raiz do projeto.</li>
+  <li>Rode o comando <code>npm install</code> para instalar todas as dependências do projeto (são poucas; busquei manter a simplicidade e, honestamente, deu trabalho).</li>
+  <li>Execute o comando <code>npm run dev</code> para iniciar o projeto.</li>
+  <li>Por fim, acesse o projeto em seu navegador e verifique se o backend está disponível.</li>
+</ul>
 
-Currently, two official plugins are available:
+<h2>Pré-requisitos</h2>
+<ul>
+  <li>Visual Studio Code</li>
+  <li>Node.js (versão X.X.X ou superior)</li>
+  <li>NPM (normalmente já vem com o Node.js)</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Como Contribuir</h2>
+<p>Envie um Pull Request ou abra um Issue para sugerir melhorias ou reportar problemas.</p>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h2>Tecnologias Utilizadas</h2>
+<ul>
+  <li>Node.js</li>
+  <li>TypeScript</li>
+  <li>JavaScript</li>
+  <li>HTML/CSS</li>
+</ul>
