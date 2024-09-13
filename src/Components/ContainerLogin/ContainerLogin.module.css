@@ -1,0 +1,40 @@
+.containerLogin {
+  background-color: #fff;
+
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: inset 0 0 3px 1px rgba(30, 30, 30, 0.8);
+
+  padding: 25px;
+
+  width: 75vw;
+  max-width: 500px;
+  button {
+    all: unset;
+    width: 40%;
+
+    cursor: pointer;
+    text-align: center;
+    border: 1.5px solid var(--color-one);
+    border-radius: 20px;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 15px 0;
+
+    button {
+      margin: solid 1px black;
+    }
+  }
+  .botaoAtivo {
+    background-color: #d9d9d9;
+    border: 2px solid var(--color-one);
+  }
+  .botaoInativo {
+    background-color: transparent;
+  }
+}

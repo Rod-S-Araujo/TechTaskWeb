@@ -1,0 +1,22 @@
+.pagina404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+
+  width: 90vw;
+
+  button {
+    all: unset;
+    cursor: pointer;
+    background-color: var(--color-two);
+    text-align: center;
+    border: solid 3px var(--color-one);
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+}

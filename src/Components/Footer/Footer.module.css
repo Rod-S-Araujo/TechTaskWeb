@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  height: 10vh;
+
+  img {
+    height: 40px;
+    width: auto;
+  }
+
+  div {
+    h4 {
+      margin: 0;
+    }
+    h5 {
+      margin: 0;
+    }
+    h6 {
+      margin: 0;
+    }
+  }
+}

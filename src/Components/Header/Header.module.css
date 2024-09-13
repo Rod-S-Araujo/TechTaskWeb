@@ -1,0 +1,62 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 15vh;
+}
+
+.logoTechTask {
+  width: auto;
+  height: 60px;
+
+  padding: 15px 0 5px 10px;
+}
+
+.userArea {
+  display: none;
+  gap: 15px;
+  cursor: pointer;
+
+  padding: 15px 10px 0 0;
+  h4 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.ehConectado {
+  display: flex;
+}
+
+.menuHamburguer {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap: 10px;
+  padding: 10px;
+
+  border: 1px solid white;
+  border-radius: 0 0 15px 15px;
+
+  top: 11%;
+  background-color: var(--color-two);
+  button {
+    all: unset;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    width: 100%;
+    img {
+      width: 33px;
+    }
+  }
+}
+
+.menuAtivo {
+  display: flex;
+}

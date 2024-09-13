@@ -1,0 +1,24 @@
+.formPrimeiro {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  margin-top: 20px;
+
+  input {
+    all: unset;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    padding: 3px 1px 3px 8px;
+  }
+
+  input[type="submit"] {
+    background-color: #d9d9d9;
+
+    text-align: center;
+    margin-top: 20px;
+
+    cursor: pointer;
+  }
+}

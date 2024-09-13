@@ -1,0 +1,83 @@
+.containerTarefas {
+  .areaSelecaoPeriodo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    width: 100%;
+  }
+  .containerDeListagemDasTarefas {
+    margin: 5%;
+    padding: 0 5px 15px 5px;
+
+    border: solid var(--color-one);
+    border-width: 5px 1px 1px 1px;
+
+    h3 {
+      padding: 15px 5px 10px 10px;
+    }
+    .tarefa {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      .conteudoDaTarefa {
+        cursor: pointer;
+        width: 100%;
+      }
+    }
+    .cabecalhoDaTarefa {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .containerBotao {
+      display: flex;
+      justify-content: space-between;
+      button {
+        all: unset;
+        margin-top: 40px;
+        cursor: pointer;
+      }
+    }
+    .botaoConcluir {
+      border: none;
+      background-color: transparent;
+      padding: 5px;
+      cursor: pointer;
+      display: inline-block;
+
+      text-align: center;
+
+      img {
+        width: 44px;
+        height: auto;
+      }
+    }
+  }
+}
+.verde {
+  background-color: #c8fdd1;
+}
+.amarelo {
+  background-color: #f6ffc0;
+}
+.vermelho {
+  background-color: #ffc6c6;
+}
+
+.containerFiltroEstado {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.botaoFiltroEstados {
+  all: unset;
+  border: black solid 1px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.botaoFiltroEstados:hover {
+  background-color: var(--color-three);
+}
